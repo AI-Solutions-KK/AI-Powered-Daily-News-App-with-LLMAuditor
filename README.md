@@ -236,8 +236,9 @@ MIT License - see LICENSE file for details.
 ---
 
 **🔗 Related Projects:**
-- [llmauditor-rag-audit](../llmauditor-rag-audit/) - RAG Pipeline Auditing
-- [llmauditor-chatbot-monitor](../llmauditor-chatbot-monitor/) - Chatbot Governance  
-- [LLMAuditor Main Repo](https://github.com/user/llmauditor) - Core Framework
+- [Multi-Agent Research System](https://github.com/AI-Solutions-KK/Multi-Agent-Research-System-with-LLMAuditor) - Advanced AI agent coordination with LLMAuditor
+- [RAG Pipeline Auditor](https://github.com/AI-Solutions-KK/llmauditor-rag-audit) - HR knowledge base with quality monitoring
+- [Chatbot Monitor](https://github.com/AI-Solutions-KK/Chatbot-Monitor-llmauditor) - Interactive chatbot governance
+- [LLMAuditor Main Repo](https://github.com/AI-Solutions-KK/llmauditor) - Core Framework
 
 **💡 Built with [LLMAuditor](https://pypi.org/project/llmauditor/) - Production-grade AI governance framework**
