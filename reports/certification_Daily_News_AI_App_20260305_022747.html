@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>GenAI Application Certification Report</title>
+<style>
+body{font-family:'Segoe UI',Arial,sans-serif;background:#f4f6f9;color:#2c3e50;margin:0;padding:40px}
+.report{max-width:860px;margin:0 auto;background:#fff;border-radius:8px;box-shadow:0 2px 16px rgba(0,0,0,.1);overflow:hidden;position:relative}
+.header{background:#0d5e2e;color:#fff;padding:32px 40px 24px}
+.header h1{margin:0 0 8px;font-size:22px;letter-spacing:1px}
+.header .subtitle{font-size:13px;color:#a0b0c8}
+.section{padding:28px 40px;border-bottom:1px solid #eaecf0}
+.section:last-child{border-bottom:none}
+.section h2{font-size:13px;text-transform:uppercase;letter-spacing:1.5px;color:#7f8c8d;margin:0 0 16px}
+.summary-box{background:#f0f7ff;border-left:4px solid #2980b9;padding:16px 20px;border-radius:4px;font-size:14px;line-height:1.7}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;padding:10px 14px;background:#f4f6f9;color:#7f8c8d;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.8px}
+td{padding:10px 14px;border-bottom:1px solid #f0f0f0}
+tr:last-child td{border-bottom:none}
+.badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:700;color:#fff}
+.notes-list{list-style:none;padding:0;margin:0}
+.notes-list li{padding:6px 0;font-size:14px;border-bottom:1px solid #f0f0f0}
+.notes-list li:last-child{border-bottom:none}
+.footer{background:#f4f6f9;padding:20px 40px;font-size:11px;color:#95a5a6;text-align:center}
+code{font-family:'Courier New',monospace;background:#f0f0f0;padding:2px 6px;border-radius:3px;font-size:12px;word-break:break-all}
+</style></head><body>
+<div class="report">
+<div class="header"><h1>GenAI Application Certification Report</h1><div class="subtitle">LLMAuditor v1.1.0 | 2026-03-05 02:27:47</div></div>
+
+<div style="position:absolute;top:10px;right:20px;z-index:10;">
+    <svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+        <!-- White filled background -->
+        <circle cx="90" cy="90" r="82" fill="#ffffff" stroke="#0a4a23" stroke-width="3.5"/>
+        <circle cx="90" cy="90" r="66" fill="none" stroke="#0a4a23" stroke-width="1.8"/>
+        <!-- Cardinal dots between rings -->
+        <circle cx="90" cy="6"   r="3" fill="#0a4a23"/>
+        <circle cx="90" cy="174" r="3" fill="#0a4a23"/>
+        <circle cx="6"  cy="90"  r="3" fill="#0a4a23"/>
+        <circle cx="174" cy="90" r="3" fill="#0a4a23"/>
+        <defs>
+            <path id="topArc" d="M 16,90 A 74,74 0 0,0 164,90" fill="none"/>
+            <path id="bottomArc" d="M 16,90 A 74,74 0 0,1 164,90" fill="none"/>
+        </defs>
+        <text font-family="Arial,Helvetica,sans-serif" font-size="12.5" font-weight="bold" fill="#0a4a23" letter-spacing="4.5">
+            <textPath href="#topArc" startOffset="50%" text-anchor="middle">CERTIFIED</textPath>
+        </text>
+        <text font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="#0a4a23" letter-spacing="3.5">
+            <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">LLM AUDITOR</textPath>
+        </text>
+        <text x="90" y="87" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#0a4a23">PLATINUM</text>
+        <line x1="52" y1="92" x2="128" y2="92" stroke="#0a4a23" stroke-width="0.6"/>
+        <text x="90" y="106" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8.5" fill="#0a4a23">LMA-20260305-624A91</text>
+    </svg>
+</div>
+<div class="section"><h2>1. Application Identity</h2>
+    <table><tr><th>Field</th><th>Value</th></tr>
+    <tr><td>Application</td><td>Daily News AI App</td></tr>
+    <tr><td>Version</td><td>1.0.0</td></tr>
+    <tr><td>Evaluation Mode</td><td><span style="display:inline-block;padding:4px 14px;border-radius:14px;font-size:12px;font-weight:700;color:#fff;background:#3498db;">Without API Call</span></td></tr>
+    <tr><td>Duration</td><td>0.1s</td></tr>
+    <tr><td>Total Executions</td><td>3</td></tr>
+    <tr><td>Models</td><td>gpt-4o-mini</td></tr>
+    </table></div>
+
+<div class="section"><h2>2. Evaluation Summary</h2>
+    <div class="summary-box" style="text-align:center;">
+        <div style="font-size:32px;color:#00d4ff;">💎 Platinum</div>
+        <div style="font-size:24px;font-weight:bold;">92.3/100</div>
+    </div></div>
+
+<div class="section"><h2>3. Metrics &amp; Distributions</h2>
+    <table><tr><th>Metric</th><th>Mean</th><th>StdDev</th><th>Min</th><th>Max</th></tr>
+    <tr><td>Total Tokens</td><td>420</td><td>154</td><td>265</td><td>630</td></tr>
+    <tr><td>Cost (USD)</td><td>$0.000109</td><td>$0.000046</td><td>$0.000075</td><td>$0.000175</td></tr>
+    <tr><td>Latency (s)</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+    </table></div>
+
+<div class="section"><h2>4. Hallucination Analysis</h2>
+    <table><tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>Mean Risk</td><td>2.4%</td></tr>
+    <tr><td>Max Risk</td><td>4.5%</td></tr>
+    <tr><td>Executions Analysed</td><td>3</td></tr></table></div>
+
+<div class="section"><h2>5. Governance Compliance</h2>
+    <table><tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>Guard Violations</td><td>0</td></tr>
+    <tr><td>Budget Violations</td><td>0</td></tr>
+    <tr><td>Total Warnings</td><td>0</td></tr></table></div>
+
+<div class="section"><h2>6. Stability Analysis</h2>
+    <table><tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>Failure Rate</td><td>0.0%</td></tr>
+    <tr><td>Latency CV</td><td>0.000</td></tr>
+    <tr><td>Token CV</td><td>0.367</td></tr></table></div>
+
+<div class="section"><h2>7. Scoring Breakdown</h2>
+    <table><tr><th>Subscore</th><th>Value</th><th>Weight</th></tr>
+    <tr><td>Stability</td><td><span class="badge" style="background:#27ae60">87.3</span></td><td>20%</td></tr><tr><td>Factual Reliability</td><td><span class="badge" style="background:#27ae60">96.3</span></td><td>25%</td></tr><tr><td>Governance Compliance</td><td><span class="badge" style="background:#27ae60">100.0</span></td><td>20%</td></tr><tr><td>Cost Predictability</td><td><span class="badge" style="background:#f39c12">71.9</span></td><td>15%</td></tr><tr><td>Risk Profile</td><td><span class="badge" style="background:#27ae60">100.0</span></td><td>20%</td></tr></table></div>
+
+<div class="section"><h2>8. Certification Verdict</h2>
+    <div class="summary-box" style="text-align:center;font-size:20px;">
+        <span style="color:#00d4ff;font-weight:bold;">💎 Platinum — 92.3/100</span>
+    </div></div>
+
+<div class="section"><h2>9. Improvement Recommendations</h2>
+    <ul class="notes-list"><li>No improvement recommendations needed.</li></ul></div>
+
+<div class="section"><h2>10. Integrity Hash</h2>
+    <p><code style="font-size:11px;word-break:break-all;">624a9136b3e1082e25c73038281dc97c2faa024ef7f34dd7c3e970002da027c5</code></p></div>
+
+<div class="section" style="background:#f9f9ff;border-left:4px solid #2c3e50;">
+    <h2 style="color:#2c3e50;">11. Understanding the Numbers</h2>
+    <p style="font-size:13px;color:#555;margin-bottom:18px;">What do the statistics above mean? Here is a detailed explanation for non-technical readers.</p>
+
+    <div style="margin-bottom:18px;padding:14px 18px;background:#fff;border-radius:6px;border:1px solid #eaecf0;">
+        <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:4px;">Mean (Average)</div>
+        <div style="font-size:12px;color:#7f8c8d;margin-bottom:6px;font-family:monospace;">Token Mean: 420  |  Cost Mean: $0.000109  |  Latency Mean: 0.000s</div>
+        <div style="font-size:13px;color:#444;line-height:1.7;">The mean is the simple average across all test runs. For example, if the AI was called 3 times and used 100, 200 and 300 tokens, the mean would be 200. A stable mean indicates the AI behaves consistently between calls.</div>
+    </div>
+    <div style="margin-bottom:18px;padding:14px 18px;background:#fff;border-radius:6px;border:1px solid #eaecf0;">
+        <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:4px;">Standard Deviation (StdDev)</div>
+        <div style="font-size:12px;color:#7f8c8d;margin-bottom:6px;font-family:monospace;">Token StdDev: 154  |  Cost StdDev: $0.000046  |  Latency StdDev: 0.000s</div>
+        <div style="font-size:13px;color:#444;line-height:1.7;">Standard deviation measures how much individual results spread out from the average. A low number means the AI behaves consistently every time. A high number means results fluctuate widely — which can make the application unpredictable for end users.</div>
+    </div>
+    <div style="margin-bottom:18px;padding:14px 18px;background:#fff;border-radius:6px;border:1px solid #eaecf0;">
+        <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:4px;">Coefficient of Variation (CV)</div>
+        <div style="font-size:12px;color:#7f8c8d;margin-bottom:6px;font-family:monospace;">Latency CV: 0.000  |  Token CV: 0.367</div>
+        <div style="font-size:13px;color:#444;line-height:1.7;">CV is the ratio of standard deviation to the mean. It tells you how variable results are relative to their average. A CV below 0.3 means stable, predictable performance. Above 0.5 indicates high variability that may need attention. Above 1.0 is a red flag — the AI is very inconsistent.</div>
+    </div>
+    <div style="margin-bottom:18px;padding:14px 18px;background:#fff;border-radius:6px;border:1px solid #eaecf0;">
+        <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:4px;">Min / Max Range</div>
+        <div style="font-size:12px;color:#7f8c8d;margin-bottom:6px;font-family:monospace;">Tokens: 265–630  |  Latency: 0.000s–0.000s  |  Cost: $0.000075–$0.000175</div>
+        <div style="font-size:13px;color:#444;line-height:1.7;">Min and Max show the smallest and largest values observed during testing. A narrow gap (min close to max) means predictable performance. A wide gap may indicate the AI responds very differently depending on the input.</div>
+    </div>
+    <div style="margin-bottom:18px;padding:14px 18px;background:#fff;border-radius:6px;border:1px solid #eaecf0;">
+        <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:4px;">Hallucination Risk Score</div>
+        <div style="font-size:12px;color:#7f8c8d;margin-bottom:6px;font-family:monospace;">Mean Risk: 2.4%  |  Max Risk: 4.5%</div>
+        <div style="font-size:13px;color:#444;line-height:1.7;">Hallucination risk measures the likelihood that the AI invented facts or produced inaccurate information. 0% = no detected risk, 100% = extremely high risk. Below 15% is considered LOW risk. The system analyses factual claim density, hedging language, absolute statements and self-contradictions to compute this.</div>
+    </div>
+    <div style="margin-bottom:18px;padding:14px 18px;background:#fff;border-radius:6px;border:1px solid #eaecf0;">
+        <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:4px;">Confidence Score</div>
+        <div style="font-size:12px;color:#7f8c8d;margin-bottom:6px;font-family:monospace;">Mean Confidence: 95%</div>
+        <div style="font-size:13px;color:#444;line-height:1.7;">Confidence estimates how trustworthy each AI response is, based on response length, cost and execution time. 85%+ = healthy and complete. 70–84% = minor anomalies, review advised. Below 70% = the response may be too short, too costly or took an unusually long time.</div>
+    </div>
+    <div style="margin-bottom:18px;padding:14px 18px;background:#fff;border-radius:6px;border:1px solid #eaecf0;">
+        <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:4px;">Failure Rate</div>
+        <div style="font-size:12px;color:#7f8c8d;margin-bottom:6px;font-family:monospace;">0.0%</div>
+        <div style="font-size:13px;color:#444;line-height:1.7;">The percentage of AI calls that failed or produced errors. 0% means every call succeeded. Even a small failure rate (above 2%) should be investigated — it may indicate unreliable API connections, invalid inputs or model limitations.</div>
+    </div>
+    <div style="margin-bottom:18px;padding:14px 18px;background:#fff;border-radius:6px;border:1px solid #eaecf0;">
+        <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:4px;">Risk Distribution</div>
+        <div style="font-size:12px;color:#7f8c8d;margin-bottom:6px;font-family:monospace;">LOW: 3 (100%)  |  MEDIUM: 0 (0%)  |  HIGH: 0 (0%)</div>
+        <div style="font-size:13px;color:#444;line-height:1.7;">Each AI call is classified as LOW, MEDIUM or HIGH risk based on its cost and token usage. A healthy application should have most calls in the LOW category. MEDIUM calls deserve monitoring. HIGH-risk calls should be investigated.</div>
+    </div>
+    <div style="margin-bottom:18px;padding:14px 18px;background:#fff;border-radius:6px;border:1px solid #eaecf0;">
+        <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:4px;">Overall Certification Score</div>
+        <div style="font-size:12px;color:#7f8c8d;margin-bottom:6px;font-family:monospace;">92.3/100 — Platinum</div>
+        <div style="font-size:13px;color:#444;line-height:1.7;">The final score is a weighted combination of five quality areas: Stability (20%), Factual Reliability (25%), Governance Compliance (20%), Cost Predictability (15%), and Risk Profile (20%). Each area is scored 0–100 and combined using these weights. Platinum ≥ 90, Gold ≥ 80, Silver ≥ 70, Conditional Pass ≥ 60.</div>
+    </div>
+</div>
+
+<div class="section" style="background:#f8fdf8;">
+    <h2 style="color:#0d5e2e;">12. Report Summary — What Does This Mean?</h2>
+    <p style="font-size:13px;color:#555;margin-bottom:18px;">Here is a simple summary anyone can understand.</p>
+
+    <div style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <span style="font-size:22px;margin-right:14px;flex-shrink:0;">📋</span>
+        <div>
+            <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:3px;">What Was Tested</div>
+            <div style="font-size:13px;color:#555;line-height:1.6;">"Daily News AI App" (version 1.0.0) was tested 3 times using the gpt-4o-mini model.</div>
+        </div>
+    </div>
+    <div style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <span style="font-size:22px;margin-right:14px;flex-shrink:0;">💎</span>
+        <div>
+            <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:3px;">Overall Result</div>
+            <div style="font-size:13px;color:#555;line-height:1.6;">The application received a top-tier "Platinum" certification with a score of 92 out of 100. This means it performed excellently across all quality checks.</div>
+        </div>
+    </div>
+    <div style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <span style="font-size:22px;margin-right:14px;flex-shrink:0;">⚡</span>
+        <div>
+            <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:3px;">Reliability</div>
+            <div style="font-size:13px;color:#555;line-height:1.6;">Responses were mostly consistent, though some variation was observed in speed or output length. Generally dependable.</div>
+        </div>
+    </div>
+    <div style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <span style="font-size:22px;margin-right:14px;flex-shrink:0;">🎯</span>
+        <div>
+            <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:3px;">Accuracy</div>
+            <div style="font-size:13px;color:#555;line-height:1.6;">The AI's answers showed very low risk of containing made-up or inaccurate information. Average accuracy risk level: 2%.</div>
+        </div>
+    </div>
+    <div style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <span style="font-size:22px;margin-right:14px;flex-shrink:0;">🛡</span>
+        <div>
+            <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:3px;">Safety & Rules</div>
+            <div style="font-size:13px;color:#555;line-height:1.6;">The AI followed all safety rules and budget limits perfectly. No violations were detected.</div>
+        </div>
+    </div>
+    <div style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <span style="font-size:22px;margin-right:14px;flex-shrink:0;">💰</span>
+        <div>
+            <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:3px;">Cost</div>
+            <div style="font-size:13px;color:#555;line-height:1.6;">Total cost for all 3 calls was $0.0003 USD — very economical.</div>
+        </div>
+    </div>
+    <div style="display:flex;align-items:flex-start;margin-bottom:14px;">
+        <span style="font-size:22px;margin-right:14px;flex-shrink:0;">✅</span>
+        <div>
+            <div style="font-weight:700;font-size:14px;color:#2c3e50;margin-bottom:3px;">No Issues Found</div>
+            <div style="font-size:13px;color:#555;line-height:1.6;">All quality checks passed. No immediate actions are required.</div>
+        </div>
+    </div>
+</div>
+
+<div class="section" style="background:#fafafa;border-top:2px solid #0d5e2e;text-align:center;">
+    <h2 style="color:#0d5e2e;">✍️ Digital Signature</h2>
+    <table style="width:auto;margin:0 auto;font-size:13px;">
+        <tr><td style="text-align:right;font-weight:600;padding:6px 16px;">Certificate No</td><td style="padding:6px 16px;"><code>LMA-20260305-624A91</code></td></tr>
+        <tr><td style="text-align:right;font-weight:600;padding:6px 16px;">Issued By</td><td style="padding:6px 16px;">LLMAuditor v1.1.0 — Automated Certification Engine</td></tr>
+        <tr><td style="text-align:right;font-weight:600;padding:6px 16px;">Issue Date</td><td style="padding:6px 16px;">2026-03-05 02:27:47</td></tr>
+        <tr><td style="text-align:right;font-weight:600;padding:6px 16px;">Integrity Hash</td><td style="padding:6px 16px;font-size:10px;"><code>624a9136b3e1082e25c73038281dc97c2faa024ef7f34dd7c3e970002da027c5</code></td></tr>
+    </table>
+    <hr style="border:none;border-top:1px solid #ddd;margin:20px 40px;"/>
+    <p style="font-style:italic;font-size:12px;color:#7f8c8d;line-height:1.8;">
+        This certificate was digitally signed and generated automatically<br/>
+        by the LLMAuditor v1.1.0 Certification Engine.<br/>
+        No human intervention was involved in the evaluation process.
+    </p>
+</div>
+<div class="footer"><code>Integrity Hash: 624a9136b3e1082e25c73038281dc97c2faa024ef7f34dd7c3e970002da027c5 | Certificate: LMA-20260305-624A91 | 2026-03-05 02:27:47 | LLMAuditor v1.1.0</code></div>
+</div></body></html>
